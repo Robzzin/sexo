@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Puddles&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Rubik+Puddles&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asul&display=swap');
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #711A75;
+    --cor-terciaria: #F10086;
+    --cor-hover: #F582A7;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria)
+}
+.titulo {
+color: var(--cor-terciaria)
+}
+
+.sexotitulo{
+    font-size: 2.25rem;
+    font-family: 'Asul', sans-serif;
+    text-align: center;
+}
+.sexoparagrafo{
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Rubik Puddles', cursive;
+font-family: 'Shadows Into Light', cursive;
+text-align: center;
+}
+* {
+    padding: 0;
+    margin: 20;
+}
+.sexo { 
+   padding: 7% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20%;
+}
+.sexo2{
+    width: 50%;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+.br{
+    color: green;
+}
+.as {
+    color: blue;
+}
+.il {
+    color: yellow;
+}
+.paragrafo {
+    color: red;
+}
+.paragrafo2 {
+    color: green;
+}
+.divisaobotao {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.81rem;
+    font-family: 'Pacifico', cursive;
+    gap: 11px;
+    
+}
+.linkbotao {
+    background-color: var(--cor-primaria);
+    border: 2px solid var(--cor-terciaria);
+    color: var(--cor-terciaria);
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1.25rem;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Rubik Puddles', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    text-decoration: none;
+width: 180px; 
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.linkbotao:hover
+{
+    background-color: var(--cor-hover);
+    font-size: 1.5rem;
+    }
+
+.divisaoimagem {
+display: flex; }
+
+.podridao {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    font-family: 'EB Garamond', serif;
+   width: 100%;
+   bottom: 0%;
+   left: 0%;
+   position:fixed;
+}
+.paragrafopodre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 0.94rem;
+}
+
+.cabeçudo{
+    padding: 2% 0 0 10%;
+   
+}
+
+.navegaçao {
+ display: flex;
+ gap: 30px;
+ font-family: 'Silkscreen', cursive;
+}
+
+.home{
+font-size: 1.25rem;
+color: var(--cor-terciaria);
+text-decoration: none;
+}
+
+.titulo2 {
+    font-family: 'Martian Mono', monospace;
+    text-align: center;
+    font-size: 1.9rem;
+    color:var(--cor-terciaria);
+}
+
+.imagemfoda {
+    width: 100%;
+}
+
+@media (max-width: 1100px) {
+    .sexo {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .cabeçudo {
+        padding: 10%;
+    }
+    .navegaçao {
+        justify-content: center;
+    }
+    .paragrafopodre {
+    font-size: 0.50rem;
+    }
+    .home {
+        font-size: 1.05rem;
+    }
+    .sexo2 {
+        width: auto;
+    }
